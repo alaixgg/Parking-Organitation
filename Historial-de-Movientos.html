@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Parking Organización - Gestión de Usuarios</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+          <img src="imag\Parkinglogo.png" alt="Logo Parking" class="logo-img" />
+          <h2>Parking Organización</h2>
+        </div>
+    <nav class="sidebar-nav">
+      <ul>
+        <li><a href="#inicio" class="active">Inicio</a></li>
+        <li><a href="#historial-organizacion">Historial de Organización</a></li>
+        <li><a href="#gestion-de-placas">Gestión de Placas</a></li>
+        <li><a href="#gestion-de-usuarios">Gestión de Usuarios</a></li>
+        <li><a href="#gestion-de-peticiones">Gestión de Peticiones</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="main-content">
+
+    <header class="main-header">
+      <div class="header-left">
+        <h2 id="page-title">Historial de Movimientos</h2>
+      </div>
+      <div class="header-right">
+        Administrador
+      </div>
+    </header>
+
+    <div class="content">
+
+      <section id="usuarios">
+        <nav class="breadcrumb">
+          <a href="#">Parking Organización</a>
+          <span class="sep">/</span>
+          <a href="#">Historial de Movimientos</a>
+        </nav>
+
+
+        <div class="table-container history">
+          <table>
+            <thead>
+              <tr>
+                <th>NO.</th>
+                <th>Nombre</th>
+                <th>Placa</th>
+                <th>Tipo de usuario</th>
+                <th>Hora</th>
+                <th>Tipo de Operación</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td><a href="#">Juan Perez</a></td>
+                <td>ABC123</td>
+                <td>Residente</td>
+                <td>2019-12-05 20:45:23</td>
+                <td>Ingreso</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td><a href="#">María Gomez</a></td>
+                <td>DEF456</td>
+                <td>Visitante</td>
+                <td>2019-12-05 21:45:23</td>
+                <td>Salida</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="pagination">
+            <ul>
+              <li><a href="#">&laquo;</a></li>
+              <li><a href="#">1</a></li>
+              <li><a href="#" class="active">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">&raquo;</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+</body>
+</html>
